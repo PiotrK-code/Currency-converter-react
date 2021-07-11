@@ -1,6 +1,6 @@
-import { useState } from 'react';
-import { Result } from './Result';
-import { currencies } from '../currencies';
+import { useState } from "react";
+import { Result } from "./Result";
+import { currencies } from "../currencies";
 import "./style.css";
 
 export const Form = ({ calculateResult, result }) => {
