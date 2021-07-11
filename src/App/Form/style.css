@@ -22,11 +22,11 @@
 }
 
 .form__button:hover {
-    background-color: rgb(102, 238, 140); 
+    background-color: rgb(102, 238, 140);
 }
 
 .form__button:active {
-    background-color: rgb(102, 238, 120); 
+    background-color: rgb(102, 238, 120);
 }
 
 .form__fieldset {
