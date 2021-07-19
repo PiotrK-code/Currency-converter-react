@@ -1,6 +1,6 @@
 import { useState } from "react";
-import { Result } from "./Result";
 import { currencies } from "../currencies";
+import { Result } from "./Result";
 import "./style.css";
 
 export const Form = ({ calculateResult, result }) => {
@@ -43,7 +43,7 @@ export const Form = ({ calculateResult, result }) => {
                         value={currency}
                         onChange={({ target }) => setCurrency(target.value)}
                     >
-                        {cureencies.map((currency => (
+                        {currencies.map((currency => (
                             <option
                                 key={currency.short}
                                 value={currency.short}
