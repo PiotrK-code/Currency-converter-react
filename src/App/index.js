@@ -1,11 +1,10 @@
 import { useState } from 'react';
-import './App.css';
+import "./App.css";
 import { Form } from './Form';
 import { Clock } from "./Clock";
 import { currencies } from './currencies';
 
 function App() {
-
     const [result, setResult] = useState();
 
     const calculateResult = (currency, amount) => {
