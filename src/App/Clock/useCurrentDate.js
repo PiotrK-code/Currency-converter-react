@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 
-export const useCurrentDate = (date) => {
+export const useCurrentDate = () => {
     const [date, setDate] = useState(new Date());
 
     useEffect(() => {
@@ -12,4 +12,5 @@ export const useCurrentDate = (date) => {
             clearInterval(intervalId);
         };
     }, []);
+    return date;
 }
